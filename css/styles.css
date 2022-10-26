@@ -1,0 +1,171 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.big-heading {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+/* navigation bar */
+.navbar-brand {
+  font-family: ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Download button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title */
+#title {
+  background-color: #ff4c68;
+  text-align: left;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.title-image {
+  width: 22%;
+  right: 24%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* features */
+.f-icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.f-icon:hover {
+  color: #ff4c68;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+/* testimonial section */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.testimonial-picture {
+  width: 10%;
+  border-radius: 100%;
+  margin: 10px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* press */
+#press {
+  background-color: #ef8172;
+  padding: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-item {
+  padding: 3% 2%;
+}
+
+.pricing-heading {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.pricing-price {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.pricing-dog-name{
+  font-size: 1.5rem;
+}
+
+/* Call to Action */
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+}
+
+.cta-title {
+  color: #fff;
+  font-size: 2.8rem;
+  line-height: 1.5;
+}
+
+.btn-cta {
+  margin: 3rem 1rem;
+}
+
+/* Footer  */
+#footer {
+  padding: 5% 15% 2%;
+}
+
+.footer-icon {
+  margin: 4% 1%;
+}
+
+/* media */
+@media screen and (max-width:1110px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+    width: 300px;
+  }
+}
